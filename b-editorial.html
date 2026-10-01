@@ -45,8 +45,8 @@ nav a.on{color:var(--navy);box-shadow:inset 0 -2px 0 var(--navy);padding-bottom:
 
 .numbers{border-bottom:1px solid var(--line)}
 .numbers .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
-.numbers div{padding:36px 0;border-left:1px solid var(--line);padding-left:28px}
-.numbers div:first-child{border-left:0;padding-left:0}
+.numbers .wrap>div{padding:36px 0;border-left:1px solid var(--line);padding-left:28px}
+.numbers .wrap>div:first-child{border-left:0;padding-left:0}
 .numbers b{font-family:"Source Serif 4",serif;font-size:44px;font-weight:400;color:var(--navy);line-height:1}
 .numbers span{display:block;font-size:14px;color:var(--muted);margin-top:8px}
 
@@ -108,7 +108,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 32px}
   .hero h1{font-size:40px}
   .portrait .cap{left:12px;bottom:12px}
   .numbers .wrap{grid-template-columns:1fr 1fr}
-  .numbers div{border-left:0;padding-left:0}
+  .numbers .wrap>div{border-left:0;padding-left:0}
   section{padding:64px 0}
   .head{grid-template-columns:1fr;gap:16px}
   h2{font-size:32px}
